@@ -14,14 +14,18 @@
     <p id="target"></p>
 
     <script>
-        const p1 = prompt('Player One! Rock, paper, or scissors?');
-        const p2 = prompt('Player Two! Rock, paper, or scissors?');
-
-        if(p1.toLowerCase() === 'rock' && p2.toLowerCase() === 'paper'){
-
+        const p1 = prompt('Player One! Rock, paper, or scissors?').toLowerCase();
+        const p2 = prompt('Player Two! Rock, paper, or scissors?').toLowerCase();
+        const targt = document.querySelector('#target';)
+        if(p1 === 'rock' && p2 === 'paper'){
+            target.innerHTML = 'P2 wins!'
+        } else if (p1 === 'rock' && p2 === 'scissors'){
+            target.innerHTML = 'P1 wins!'
+        } else if (p1 === 'scissors' && p2 === 'paper'){
+            target.innerHTML = 'P1 wins!'
         }
-        if(p1.toLowerCase() === 'rock' && p2.toLowerCase() === 'scissors'){}
-        if(p1.toLowerCase() === 'rock' && p2.toLowerCase() === ){}
+        if(p1 === 'rock' && p2 === 'scissors'){}
+        if(p1 === 'rock' && p2 === ){}
 
         //document.querySelector('#target').innerHTML = 'Hey guys!'
     </script>
