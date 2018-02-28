@@ -37,6 +37,8 @@ console.log(difference);
 const mathTeacher = {
   name: 'Josh',
   good: false,
+  age: 33,
+  experience: 7,
   adder: function(arg1, arg2) {
     const result = arg1 + arg2;
     return result;
