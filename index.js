@@ -1,10 +1,10 @@
 "use strict";
 
 const holger = {
-    name: 'holger',
-    age: 39,
-    happy: true,
-    hairColor: 'red',
+  name: 'holger',
+  age: 39,
+  happy: true,
+  hairColor: 'red',
 }
 
 const brandon = {
@@ -25,7 +25,7 @@ const studentArray = [holger, brandon, sama];
 // console.log(studentArray);
 
 
-for(let i = 0; i < studentArray.length; i++) {
+for (let i = 0; i < studentArray.length; i++) {
     console.log(`hello, ${studentArray[i].name}. I heard you are ${studentArray[i].age}. That sure is old. Why are you so ${ studentArray[i].happy ? 'happy' : 'unhappy'}?`);
 }
 

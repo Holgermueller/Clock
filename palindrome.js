@@ -10,4 +10,5 @@ const palindromeChecker = function(sentence) {
 
 palindromeChecker('wow');
 palindromeChecker('Was it a car or a cat I saw');
+palindromeChecker('A man, a plan, a canal, Panama!');
 palindromeChecker('This is a palindrome.');
