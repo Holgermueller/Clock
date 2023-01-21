@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Holgermueller/javaScriptExercises/issues"
   },
-  "homepage": "https://github.com/Holgermueller/javaScriptExercises#readme"
+  "homepage": "https://github.com/Holgermueller/javaScriptExercises#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
 }
