@@ -9,6 +9,7 @@ html {
   display: grid;
   place-items: center;
   font-family: sans-serif;
+  text-align: center;
 }
 
 .clock-container {

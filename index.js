@@ -1,5 +1,13 @@
-let time = moment().format("LTS");
+let date = moment().format("LL");
+let timeDisplay = document.createElement("time");
 
-console.log(time);
+const getTime = () => {
+  setInterval(() => {
+    let time = moment().format("LTS");
+    timeDisplay.innerHTML = time;
+  }, 1000);
+};
 
-document.getElementById("time").innerHTML = time;
+document.getElementById("date").innerHTML = date;
+
+getTime();
