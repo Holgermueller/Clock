@@ -16,9 +16,16 @@ html {
   background-color: aqua;
   padding: 1rem 2.5rem;
   border-radius: 5px;
+  line-height: 2;
 }
 
 .time {
   font-size: 3rem;
   letter-spacing: 10px;
+}
+
+.date,
+.day-of-week {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
 }
